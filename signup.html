@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Sign-up</title>
+    <style>
+        body{
+            font-family: 'Roboto', sans-serif;
+            background-color: black;
+            color: white;
+        }
+        a{
+            color: white;
+        }
+        button{
+            background-color:rgb(46,116,230) ;
+            padding: 10px;
+            width: 330px;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+            /* margin-left: 70px; */
+        }
+        input{
+            padding: 10px;
+            margin-top: 20px;
+            width: 300px;
+            justify-content: center;
+            border-radius: 5px;
+            /* margin-left: 70px; */
+        }
+        #main{
+            display:block;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: 500px;
+        }
+        #check{
+            display: grid;
+        }p{
+            font-size:small;
+            /* margin-left: 80px; */
+            width: 300px;
+        }
+        #parent{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* width:100vw;
+            height:100vw; */
+
+        }
+        input[type=checkbox]{
+            margin: 3px;
+        }
+    </style>
+</head>
+<body>
+    <a href=""><i style="font-size:24px;color: white;" class="fa">&#xf060;</i></a>
+   <div id="parent"> <div id="main">
+    <h2 style="font-size: 1.75em;">Become a Tezucka Member</h2>
+    <p>Create your Tezucka Member profile and store your health story and access it anytime, anywhere</p>
+    <input type="email" name="email" id="email" placeholder="name@email.com">
+    <input type="password" name="pass" id="pass" placeholder="Password">
+    <input type="text" name="Fname" id="Fname" placeholder="First Name">
+    <input type="text" name="Lname" id="Lname" placeholder="Last Name">
+    <input type="date" name="date" id="" placeholder="Date of Birth">
+    <p style="margin-left:20% ;">Your data stays encrypted on our servers</p>
+    <input type="text" name="country" id="country" value="India" style="margin-top: 5px;">
+    
+    <div id="check"><input type="checkbox" name="sign-up" id="sign-up">
+    <label for="sign-up">Sign up for emails to get updates from TEZUCKA on products, offers and Member benefits</label></div>
+    <p>By creating an account, you agree to Tezucka's <a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a></p>
+    <button type="button">JOIN US</button><br>
+    <a href="http://127.0.0.1:5500/login.html" style="padding: 10px;">Already a Member? Sign In.</a>
+</div></div>
+
+
+
+
+</body>
+</html>

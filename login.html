@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>login</title>
+    <style>
+        body{
+            background-color: black;
+            /* display: grid; */
+            font-family: 'Roboto', sans-serif;
+        }
+        input{
+            padding: 10px;
+            margin-top: 20px;
+            width: 300px;
+            justify-content: center;
+            border-radius: 5px;
+            margin-left: 15%;
+        }
+        button{
+            background-color:rgb(46,116,230) ;
+            padding: 10px;
+            margin-top: 20px;
+            width: 330px;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-left: 15%;
+        }
+        #main{
+            display: grid;
+            text-align: center;
+            left:50%;
+            top:50%;
+            /* transform: translate(-50%,-50%);
+            display: flex; */
+            /* justify-content: center; */
+        }
+        #sign-up{
+            color: white;
+            font-size: 0.75em;
+            text-align: center;
+            padding:10px;
+        }
+        #parent{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* width:100vw;
+            height:100vw; */
+
+        }
+    </style>
+</head>
+<body>
+    <a href=""><i style="font-size:24px;color: white;" class="fa">&#xf060;</i></a>
+   <div id="parent"><div id="main"> <h2 style="color: white;">LOGIN TO YOUR TEZUCKA MEMBER PROFILE</h2>
+    <input type="email" name="email" id="email" placeholder="name@email.com">
+    <input type="password" name="pass" id="pass" placeholder="Password">
+    <input type="number" name="mobile_number" id="number" placeholder="Enter your mobile number to receive otp">
+    <button type="button">RECEIVE OTP</button>
+    <input type="number" name="otp" id="otp" placeholder="ENTER YOUR OTP">
+    <button type="submit">SIGN IN</button>
+    <a href="http://127.0.0.1:5500/signup.html" id="sign-up">Don't have an account? Sign up</a>
+</div></div>
+</body>
+</html>
